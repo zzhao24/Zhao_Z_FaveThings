@@ -1,2 +1,18 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<div class="w-100" id="main-banner"></div>
+<section id="bags" class="container">
+    <!-- this is a loop with handlebars -->
+    <h2 class="text-uppercase text-center mb-4">My Favourite Collections</h2>
+
+    <div class="row">
+        {{#each pics}}
+            <div class="item-container col-sm-6 col-lg-4 text-center my-4">
+                <a href="/{{name}}">
+                    <img src="/images/{{pic}}" alt="avatar">
+                </a>
+
+                <p class="bag-name"><a href="/{{name}}">{{name}}</a></p>
+            </div>
+        {{/each}}
+    </div>
+
+</section>

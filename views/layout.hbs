@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    {{{body}}}
-  </body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/main.css" />
+</head>
+<body>
+    <header class="container">
+        <h1 class="sr-only">Gucci - My Hand Bag Collections</h1>
+        <nav class="text-center">
+            <a href="/">
+                <img src="images/guccilogo.png" alt="Gucci" id="main-logo">
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        {{{body}}} <!-- this is like router-view in the Vue.js -->
+    </main>
+    <footer class="text-center">
+        &copy; 2019. Gucci. All Rights Reserved.
+    </footer>
+</body>
 </html>
