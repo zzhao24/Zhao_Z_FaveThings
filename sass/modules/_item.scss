@@ -1,0 +1,13 @@
+#item-detail{
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  @media screen and (min-width: 768px){
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 992px){
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}

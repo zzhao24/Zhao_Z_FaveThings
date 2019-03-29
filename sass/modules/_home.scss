@@ -1,0 +1,56 @@
+body{
+  min-width: 320px;
+  letter-spacing: 2px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  #main-logo{
+    width: 320px;
+    max-width: 100%;
+  }
+}
+
+#main-banner{
+  background: url("../images/banner.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 45%;
+
+  @media screen and (min-width:768px){
+    padding-bottom: 30%;
+  }
+}
+
+#bags{
+  padding-top: 45px;
+  padding-bottom: 45px;
+
+  @media screen and (min-width: 768px){
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 992px){
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  img{
+    width: 90%;
+
+  }
+}
+
+footer{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: .85rem;
+  background-color: $text-color;
+  color: $bg-color;
+}
